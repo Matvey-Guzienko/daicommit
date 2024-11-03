@@ -3,8 +3,6 @@ from colorama import init, just_fix_windows_console
 init()
 just_fix_windows_console()
 
-from .commands import commit, config
-
 VERSION = "1.0.0"
 
 def main():
@@ -34,7 +32,7 @@ def main():
     (options, args) = parser.parse_args()
 
     if options.show_version:
-        print(f"AICommit v{VERSION}")
+        print(f"DAICommit v{VERSION}")
         return
 
     if options.help:
@@ -50,8 +48,10 @@ def main():
         command = 'commit'
 
     if command == 'commit':
+        from .commands import commit
         commit(False, options.fgm, options.yes)
     elif command == "config":
+        from .commands import config
         config()
     elif command == "hook":
         print("Setting up git hook...")

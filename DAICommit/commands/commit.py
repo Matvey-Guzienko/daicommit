@@ -15,8 +15,7 @@ console = Console()
 repo = Repo()
 
 def commit(is_stage_all_flag: bool = False, full_git_moji_spec: bool = False, skip_commit_confirmation: bool = False):
-    print(skip_commit_confirmation)
-    outro('AICommit', 'blue')
+    outro('DAICommit', 'blue')
     print()
 
     if is_stage_all_flag:
