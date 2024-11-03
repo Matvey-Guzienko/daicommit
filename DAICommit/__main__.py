@@ -1,9 +1,13 @@
 from optparse import OptionParser, OptionGroup
 from colorama import init, just_fix_windows_console
+from git import Repo
+
 init()
 just_fix_windows_console()
 
-VERSION = "1.0.0"
+from .utills import outro
+
+VERSION = "1.0.1"
 
 def main():
     parser = OptionParser(
@@ -48,6 +52,11 @@ def main():
         command = 'commit'
 
     if command == 'commit':
+        try:
+            Repo()
+        except Exception:
+            outro('To get started, initialize git using the `git init` command', 'red')
+            exit(0)
         from .commands import commit
         commit(False, options.fgm, options.yes)
     elif command == "config":

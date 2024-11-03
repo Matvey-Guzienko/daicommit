@@ -5,9 +5,55 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4dd92ab0-55cb-4c4d-b789-be4d2fe32ed2" name="Список изменений" comment="">
+      <change afterPath="$PROJECT_DIR$/DAICommit.egg-info/PKG-INFO" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DAICommit.egg-info/SOURCES.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DAICommit.egg-info/dependency_links.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DAICommit.egg-info/entry_points.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DAICommit.egg-info/requires.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DAICommit.egg-info/top_level.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/lib/DAICommit/__main__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/lib/DAICommit/commands/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/lib/DAICommit/commands/commit.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/lib/DAICommit/commands/config.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/lib/DAICommit/engine/Engine.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/lib/DAICommit/engine/anthropic.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/lib/DAICommit/engine/gemini.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/lib/DAICommit/engine/openAi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/lib/DAICommit/i18n/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/lib/DAICommit/i18n/cs.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/lib/DAICommit/i18n/de.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/lib/DAICommit/i18n/en.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/lib/DAICommit/i18n/es_ES.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/lib/DAICommit/i18n/fr.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/lib/DAICommit/i18n/id_ID.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/lib/DAICommit/i18n/it.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/lib/DAICommit/i18n/ja.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/lib/DAICommit/i18n/ko.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/lib/DAICommit/i18n/nl.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/lib/DAICommit/i18n/pl.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/lib/DAICommit/i18n/pt_br.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/lib/DAICommit/i18n/ru.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/lib/DAICommit/i18n/sv.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/lib/DAICommit/i18n/th.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/lib/DAICommit/i18n/tr.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/lib/DAICommit/i18n/vi_VN.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/lib/DAICommit/i18n/zh_CN.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/lib/DAICommit/i18n/zh_TW.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/lib/DAICommit/utills/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/lib/DAICommit/utills/cli.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/lib/DAICommit/utills/config.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/lib/DAICommit/utills/engine.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/lib/DAICommit/utills/generateCommitMessageFromGitDiff.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/lib/DAICommit/utills/git.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/lib/DAICommit/utills/mergeDiffs.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/lib/DAICommit/utills/prompts.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/lib/DAICommit/utills/removeConventionalCommitWord.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/lib/DAICommit/utills/tokenCount.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/lib/DAICommit/utills/trytm.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DAICommit/__main__.py" beforeDir="false" afterPath="$PROJECT_DIR$/DAICommit/__main__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DAICommit/commands/commit.py" beforeDir="false" afterPath="$PROJECT_DIR$/DAICommit/commands/commit.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DAICommit/utills/git.py" beforeDir="false" afterPath="$PROJECT_DIR$/DAICommit/utills/git.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/setup.py" beforeDir="false" afterPath="$PROJECT_DIR$/setup.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -71,7 +117,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1730669835646</updated>
-      <workItem from="1730669840018" duration="609000" />
+      <workItem from="1730669840018" duration="1198000" />
     </task>
     <servers />
   </component>

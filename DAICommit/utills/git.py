@@ -6,12 +6,6 @@ from rich.console import Console
 
 from .cli import outro
 
-try:
-    repo = Repo()
-except Exception:
-    outro('To get started, initialize git using the `git init` command', 'red')
-    exit(0)
-
 def get_open_commit_ignore() -> set:
     ignore_set = set()
     ignore_file_path = Path('.aicommitignore')
@@ -64,6 +58,7 @@ def get_diff(files: list[str]) -> str:
     files_without_locks = [file for file in files if not ('.lock' in file or '-lock.' in file)]
 
     try:
+        repo = Repo()
         staged_diff = repo.git.diff('--staged', '--', *files_without_locks)
     except exc.GitCommandError as e:
         outro(f"Error running git diff: {e}", 'red')

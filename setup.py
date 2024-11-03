@@ -10,7 +10,7 @@ def license():
 
 setup(
     name='DAICommit',
-    version='1.0.0',
+    version='1.0.1',
     author='Discq192',
     author_email='guziienkomatvei@gmail.com',
     description='Auto-generate impressive commits in 1 second. Killing lame commits with AI 🤯🔫',
